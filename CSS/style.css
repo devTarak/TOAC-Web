@@ -1,0 +1,134 @@
+.navbar-nav {
+    margin-left: auto;
+}
+a.nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.topHeader {
+    background-color: #E4993D;
+    color: #fff;
+    padding: 10px 0;
+}
+.topLetastNews{
+    display: flex;
+}
+.topLetastNewsLeft p {
+    margin: 0;
+    font-weight: bold;
+}
+.topRegestrationLinks a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.topRegestrationLinks a:hover {
+    text-decoration: underline;
+}
+.topsocialLinksLeft{
+    display: flex;
+    justify-content: center;
+}
+.topsocialLinksLeft a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.title h3 {
+    position: relative;
+    line-height: 2;
+    border-bottom: 1px solid #d7d7d7;
+    color: #5a5a5a;
+    font-weight: 600;
+}
+.title h3:after {
+    background-color: #ec9831;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 220px;
+}
+.fullTitle h3{
+    position: relative;
+    line-height: 2;
+    color: #5a5a5a;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.fullTitle h3:after {
+    background-color: #ec9831;
+    bottom: -2px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.blogTabContent {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blogTabContent .news {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.blogTabContent .news h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.blogTabContent .news img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+    width: 120px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.blogTabContent .news p {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.news .meta-group{
+    font-size: 13px;
+    color: #999;
+}
+.news .meta-group i{
+    margin-right: 8px;
+}
+.updateHm{
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.updateBlogList{
+    height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+.aboutTitle h3{
+    line-height: 0.5;
+    text-transform: uppercase;
+    color: #00A2DE;
+}
+.aboutTitle h6{
+    text-transform: uppercase;
+    color: #DB9034;
+}

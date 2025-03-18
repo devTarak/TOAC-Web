@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .topLetastNews .topLetastNewsLeft{
+        width: 40%;
+    }
+    .topLetastNews .topLetastNewsRight{
+        width: 60%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    .topLetastNews .topLetastNewsLeft{
+        width: 30%;
+    }
+    .topLetastNews .topLetastNewsRight{
+        width: 70%;
+    }
+}
