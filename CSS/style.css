@@ -70,7 +70,7 @@ a.nav-link {
     width: 100%;
 }
 .blogTab .nav-item .nav-link{
-    margin: 0 5px;
+    margin: 5px 5px;
     padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
 	color: #000 !important;
@@ -90,7 +90,7 @@ a.nav-link {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 .blogTab .nav-item .active{
-    margin: 0 5px;
+    margin: 5px 5px;
 	padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
 	color: #000 !important;
