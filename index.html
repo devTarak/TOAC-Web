@@ -80,48 +80,58 @@
         <section class="homeContent container row mx-auto my-5">
             <div class="col-6">
                 <div class="title"><h3>News</h3></div>
-                <div class="blogTab d-flex justify-content-start my-3 gap-2">
-                    <button class="btn btn-warning px-4">News</button>
-                    <button class="btn btn-primary px-5">Events</button>
-                    <button class="btn btn-primary px-5">Activities</button>
-                </div>
-                <div class="blogTabContent">
-                    <div class="tabContent">
-                        <div class="news clearfix text-justify">
-                            <h4><a href="https://natta.org.np/news_event/natta-celebrates-60th-anniversary/">NATTA Celebrates 60th Anniversary</a>
-                                <span class="meta-group mb-2">
-                                    <div class="calendar">
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>March 11, 2025
-                                    </div>
-                                </span>
-                            </h4>
-                            <img src="https://natta.org.np//wp-content/uploads/2025/03/OPS_9363-120x75.jpg" alt="" width="120" height="175">
-                            <p>The Nepal Association of Tour and Travel Agents (NATTA) marked its Diamond Jubilee with a grand ceremony on 27th Falgun 2081 at Hotel Manaslu, Kathmandu. The event was inaugurated by...</p>
-                        </div>
-                        <div class="news clearfix text-justify">
-                            <h4><a href="https://natta.org.np/news_event/strengthening-cross-border-tourism-natta-hosts-meeting-with-ehttoa-and-ntb/">Strengthening Cross-Border Tourism: NATTA Hosts Meeting with EHTTOA and NTB</a>
-                                <span class="meta-group">
-                                    <div class="calendar">
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>March 2, 2025
-                                    </div>
-                                </span>
-                            </h4>
-                            <img src="https://natta.org.np//wp-content/uploads/2025/03/IMG_9202-120x75.jpg" alt="" width="120" height="175">
-                            <p>Under the leadership of NATTA President Mr. Kumar Mani Thapaliya and other board members, NATTA hosted a meeting with the Eastern Himalayan Tours and Travels Operators Association (EHTTOA) delegation, accompanied...</p>
-                        </div>
-                        <div class="news clearfix text-justify">
-                            <h4><a href="https://natta.org.np/news_event/natta-past-president-council/">NATTA Past President Council</a>
-                                <span class="meta-group">
-                                    <div class="calendar">
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>February 10, 2025
-                                    </div>
-                                </span>
-                            </h4>
-                            <img src="https://natta.org.np//wp-content/uploads/2025/02/WhatsApp-Image-2025-02-12-at-11.10.40-3-120x75.jpeg" alt="" width="120" height="175">
-                            <p>The NATTA Past President Council (PPC) meeting was held on Sunday afternoon at the NATTA Secretariat under the chairmanship of the existing NATTA PPC Convener, Mr. R. M. Singh Pradhan....</p>
+                <ul class="nav nav-tabs blogTab" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="blogTabContent tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <div class="tabContent">
+                            <div class="news clearfix text-justify">
+                                <h4><a href="https://natta.org.np/news_event/natta-celebrates-60th-anniversary/">NATTA Celebrates 60th Anniversary</a>
+                                    <span class="meta-group mb-2">
+                                        <div class="calendar">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>March 11, 2025
+                                        </div>
+                                    </span>
+                                </h4>
+                                <img src="https://natta.org.np//wp-content/uploads/2025/03/OPS_9363-120x75.jpg" alt="" width="120" height="175">
+                                <p>The Nepal Association of Tour and Travel Agents (NATTA) marked its Diamond Jubilee with a grand ceremony on 27th Falgun 2081 at Hotel Manaslu, Kathmandu. The event was inaugurated by...</p>
+                            </div>
+                            <div class="news clearfix text-justify">
+                                <h4><a href="https://natta.org.np/news_event/strengthening-cross-border-tourism-natta-hosts-meeting-with-ehttoa-and-ntb/">Strengthening Cross-Border Tourism: NATTA Hosts Meeting with EHTTOA and NTB</a>
+                                    <span class="meta-group">
+                                        <div class="calendar">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>March 2, 2025
+                                        </div>
+                                    </span>
+                                </h4>
+                                <img src="https://natta.org.np//wp-content/uploads/2025/03/IMG_9202-120x75.jpg" alt="" width="120" height="175">
+                                <p>Under the leadership of NATTA President Mr. Kumar Mani Thapaliya and other board members, NATTA hosted a meeting with the Eastern Himalayan Tours and Travels Operators Association (EHTTOA) delegation, accompanied...</p>
+                            </div>
+                            <div class="news clearfix text-justify">
+                                <h4><a href="https://natta.org.np/news_event/natta-past-president-council/">NATTA Past President Council</a>
+                                    <span class="meta-group">
+                                        <div class="calendar">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>February 10, 2025
+                                        </div>
+                                    </span>
+                                </h4>
+                                <img src="https://natta.org.np//wp-content/uploads/2025/02/WhatsApp-Image-2025-02-12-at-11.10.40-3-120x75.jpeg" alt="" width="120" height="175">
+                                <p>The NATTA Past President Council (PPC) meeting was held on Sunday afternoon at the NATTA Secretariat under the chairmanship of the existing NATTA PPC Convener, Mr. R. M. Singh Pradhan....</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                  </div>
             </div>
             <div class="col-6 pl-2">
                 <div class="updateHm bg-white">
